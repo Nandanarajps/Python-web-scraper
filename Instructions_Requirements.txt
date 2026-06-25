@@ -1,0 +1,53 @@
+Fake Python Jobs Web Scraper
+
+Project Overview
+
+This project is a Python web scraper that collects job listings from the
+Fake Python Jobs website. It extracts the job title, company name,
+location, and job detail page URL, then saves the data into a CSV file.
+
+Instructions
+
+1.  Install Python 3.
+2.  Download or clone the project.
+3.  Install the required libraries:
+    -   pip install requests beautifulsoup4
+4.  Place job_scraper.py in the project folder.
+5.  Run the scraper:
+    -   python job_scraper.py
+6.  After execution, a file named job_listings.csv will be created
+    containing the scraped job listings.
+
+Requirements
+
+Software: - Python 3.8 or later
+
+Python Libraries: - requests - beautifulsoup4 - csv (built into Python)
+
+Install dependencies: pip install requests beautifulsoup4
+
+Project Requirements
+
+-   Scrape data from: https://realpython.github.io/fake-jobs/
+-   Extract:
+    -   Job Title
+    -   Company Name
+    -   Location
+    -   Job Detail Page URL
+-   Store the results in a CSV file.
+-   Use clean and readable Python code.
+-   Handle simple edge cases such as missing fields.
+
+Project Structure
+
+fake-python-jobs-scraper/ ├── job_scraper.py ├── job_listings.csv ├──
+README.md ├── requirements.txt └── Instructions_Requirements.txt
+
+Expected Output
+
+A CSV file named job_listings.csv containing: - Job Title - Company
+Name - Location - Job URL
+
+Author
+
+Nandana Computer Science Engineering Student
